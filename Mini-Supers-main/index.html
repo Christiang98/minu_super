@@ -14,31 +14,30 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 </head>
 
 <body>
 
     <nav class="navbar navbar-expand-lg fondo letra3 sticky-top">
-        <a class="navbar-brand letra letra3" href="#"><img src="./images/Super.png" alt=""> La tiendas de Apus </a>
+        <a class="navbar-brand letra letra3 letrasNavBar" href="#"><img src="./images/Super.png" alt=""> La tiendas de Apus</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"> <img src="./images/menu-outline.svg" alt=""></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <div class="collapse navbar-collapse navbar" id="navbarNavDropdown">
             <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link letra" href="#">Inicios <span class="sr-only">(actual)</span></a>
+                <li class="nav-item">
+                    <a class="nav-link letra letrasNavBar" href="#Quienes">¿Quien soys?</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link letra" href="#Quienes">¿Quien soys?</a>
+                    <a class="nav-link letra letrasNavBar" href="#Proyectos">Productos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link letra" href="#Proyectos">Productos</a>
+                    <a class="nav-link letra letrasNavBar" href="#Contacto">Contactarnos</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link letra " href="#Contacto">Contactos</a>
-                </li>
-
+                <li class="nav-item letra">
+                    <i class="bi bi-cart4" id="carrito"></i>
                 </li>
             </ul>
         </div>
@@ -291,7 +290,7 @@
                     </label>
                 </div>
             </div>
-            <button type="submit" class="btn btn-primary boton_principal" onclick="contactar()">Contactars</button>
+            <button type="submit" class="btn btn-primary boton_principal" onclick="contactar()">Contactarmes</button>
         </form>
     </div>
 

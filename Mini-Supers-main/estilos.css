@@ -59,8 +59,8 @@ p {
 .apu {
   height: 400px;
   width: 400px;
-  display: block;
-  margin: auto;
+  display: flex;
+  margin: auto ;
   background-color: #e6a3a1;
 }
 /*COMIENZA LA ANIMACION DE LAS TARJETAS*/
@@ -174,6 +174,13 @@ text-shadow: 0 0 10px  #994F4D;
 .letra {
   color: black;
 }
+
+.letrasNavBar:hover{
+  background: #e6a3a1;
+  color: #95d4aa;
+  border-radius: 100%;
+  padding: 1px;
+}
 .letra2 {
   font-size: 21px;
 }
@@ -185,4 +192,21 @@ text-shadow: 0 0 10px  #994F4D;
 }
 .fondo4 {
   background-color: gray;
+}
+
+#carrito {
+  display: flex;
+  padding: 10px;
+  font-size: 25px;
+}
+
+#carrito:hover {
+  background: #e6a3a1;
+  color: #95d4aa;
+  border-radius: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: right;
 }

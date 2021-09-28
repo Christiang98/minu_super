@@ -102,3 +102,7 @@ function chupetines(){
           alert("Gracias vuelvas prontos saluda")
       }
   }
+
+function contactar() {
+    alert("Muchas gracias, vuelva prontus *Saluda amigablemente*")    
+}
